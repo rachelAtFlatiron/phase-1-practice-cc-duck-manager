@@ -2,6 +2,10 @@ const url = "http://localhost:3000/ducks"
 
 const duckNav = document.getElementById('duck-nav')
 const duckForm = document.getElementById('new-duck-form')
+const likes = document.getElementById('duck-display-likes')
+likes.addEventListener('click', () => {
+    likes.textContent = `${parseInt(likes.textContent) + 1} Likes`
+})
 
 const createDuck = (duck) => {
     let duckImg = document.createElement('img')
@@ -11,14 +15,11 @@ const createDuck = (duck) => {
     duckImg.addEventListener('click', () => {
         const name = document.getElementById('duck-display-name')
         const image = document.getElementById('duck-display-image')
-        const likes = document.getElementById('duck-display-likes')
 
         name.textContent = duck.name 
         image.src = duck.img_url
         likes.textContent = `${duck.likes} Likes`
-        likes.addEventListener('click', () => {
-            likes.textContent = `${parseInt(likes.textContent) + 1} Likes`
-        })
+        
 
     })
 }
