@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Duck Shrute",
       "img_url": "https://cdn11.bigcommerce.com/s-nf2x4/images/stencil/1280x1280/products/246/9133/Computer-Geek-Rubber-Duck-Schanables-3__49617.1644583506.jpg?c=2",
-      "likes": 3
+      "likes": 11
     },
     {
       "id": 2,
@@ -28,7 +28,19 @@
       "id": 5,
       "name": "Spiderduck",
       "img_url": "https://amsterdamduckstore.com/wp-content/uploads/2015/08/spidy-rubber-duck-leaning.jpg",
-      "likes": 7
+      "likes": 10
+    },
+    {
+      "name": "PugDuck",
+      "img_url": "https://cdn11.bigcommerce.com/s-nf2x4/images/stencil/1280x1280/products/2251/19660/2203_hl__77534.1681557930.jpg?c=2",
+      "likes": 0,
+      "id": 6
+    },
+    {
+      "name": "BatDuck",
+      "img_url": "https://m.media-amazon.com/images/I/91qZMeKOe6L.__AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "likes": 0,
+      "id": 7
     }
   ]
 }
