@@ -3,6 +3,7 @@ const url = "http://localhost:3000/ducks"
 const duckNav = document.getElementById('duck-nav')
 const duckForm = document.getElementById('new-duck-form')
 const likes = document.getElementById('duck-display-likes')
+
 likes.addEventListener('click', () => {
     likes.textContent = `${parseInt(likes.textContent) + 1} Likes`
 })
@@ -19,8 +20,6 @@ const createDuck = (duck) => {
         name.textContent = duck.name 
         image.src = duck.img_url
         likes.textContent = `${duck.likes} Likes`
-        
-
     })
 }
 duckForm.addEventListener('submit', (e) => {
